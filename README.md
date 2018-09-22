@@ -1,2 +1,2 @@
-# Take Me There
-The new subway route maker
+# Boost Me
+The website for self-promoters
