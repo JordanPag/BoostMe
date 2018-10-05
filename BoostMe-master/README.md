@@ -1,2 +1,2 @@
 # Boost Me
-The website for self-promoters
+Get your music heard
