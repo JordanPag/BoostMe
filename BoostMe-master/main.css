@@ -129,3 +129,27 @@ img{
   -moz-transition:.5s ease-in-out;
   -webkit-transition:.5s ease-in-out;
 }
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+.top-1 {
+  position: absolute;
+  color: white;
+  left:425px;
+  bottom:200px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 20px;
+}
+.top-2 {
+  position: absolute;
+  color: white;
+  left:425px;
+  bottom:150px;
+}
+.top-3 {
+  position: absolute;
+  color: white;
+}
