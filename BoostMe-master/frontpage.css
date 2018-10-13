@@ -86,16 +86,16 @@
 
 #logo {
   position: absolute;
-  top:-10px;
-  margin-left: -50px;
-  width:200px;
-  height:100px;
+  top: 0;
+  left: 25px;
+  width: 50px;
+  height: 50px;
 }
 
 #logoname {
-  position:absolute;
-  top:40px;
-  margin-left: -58px;
+  position: absolute;
+  top: 12.5px;
+  left: 50px;
   font-family:"Kodchasan";
   color:#E43544;
   font-size: 20px;
@@ -127,7 +127,7 @@
 .center-1 {
   position: absolute;
   width: 33.3333%;
-  top: 50%;
+  top: 40%;
   font-size: 30px;
 }
 
@@ -135,7 +135,7 @@
   position: absolute;
   width: 33.3333%;
   left: 33.3333%;
-  top: 50%;
+  top: 40%;
   font-size: 30px;
 }
 
@@ -143,12 +143,16 @@
   position: absolute;
   width: 33.3333%;
   left: 66.6666%;
-  top: 50%;
+  top: 40%;
   font-size: 30px;
 }
 
 .center-all {
   position: absolute;
   width: 100%;
-  top: 70%;
+  top: 60%;
+}
+
+.gray-background {
+  background-color: rgba(228, 53, 68, 0.25)
 }
