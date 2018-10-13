@@ -6,14 +6,14 @@ body {
 }
 
 img {
-  width:80%;
+  width:100%;
   height:100%;
 }
 
 #redline {
   background-color:#E43544;
   height:5px;
-  width:1079.98px;
+  width:100%;
   position: relative;
 }
 
@@ -22,8 +22,8 @@ img {
   border-style: solid;
   border-color:#E43544;
   border-width: 0px 0px 0px 0px;
-  width:1079.98px;
-  height:450px;
+  width:100%;
+  height: 60%;
   -webkit-box-shadow: 1px 6px 52px 6px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 6px 52px 6px rgba(0,0,0,0.75);
   box-shadow: 1px 6px 52px 6px rgba(0,0,0,0.75);
@@ -31,7 +31,7 @@ img {
 
 #infoblock {
   background-color:white;
-  width:1079.98px;
+  width:100%;
   height:100%;
   -webkit-box-shadow: 1px 6px 52px 6px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 6px 52px 6px rgba(0,0,0,0.75);
@@ -39,12 +39,12 @@ img {
 }
 
 #pic {
-  width:1000px;
+  width:33.3333%;
   height:100%;
 }
 
 .slider-holder {
-  width:1000px;
+  width:100%;
   height:100%;
   background-color: yellow;
   margin-left: auto;
@@ -55,7 +55,7 @@ img {
 }
 
 .image-holder {
-  width:3000px;
+  width:300%;
   background-color: red;
   height:100%;
   clear: both;
@@ -80,11 +80,11 @@ img {
 }
 
 #slider-image-2:target ~ .image-holder {
-  left: -1000px;
+  left: -100%;
 }
 
 #slider-image-3:target ~ .image-holder {
-  left: -2000px;
+  left: -200%;
 }
 
 .button-holder {
@@ -138,22 +138,31 @@ img {
   left: 16px;
 }
 
-.top-1 {
+.center-1 {
   position: absolute;
-  left:360px;
+  width:33.3333%;
   bottom:200px;
   font-size: 30px;
 }
 
-.top-2 {
+.center-2 {
   position: absolute;
-  left:425px;
-  bottom:150px;
+  width:33.3333%;
+  left:33.3333%;
+  bottom:200px;
+  font-size: 30px;
 }
 
-.top-3 {
+.center-3 {
   position: absolute;
-  color: white;
+  width:33.3333%;
+  left:66.6666%;
+  bottom:200px;
+  font-size: 30px;
+}
+
+.center-all {
+  position: absolute;
 }
 
 .fill:hover, .fill:focus {
