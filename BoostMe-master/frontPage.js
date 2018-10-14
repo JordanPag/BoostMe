@@ -1,20 +1,26 @@
-//#E43544 Prime Color
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("slider-holder");
-    var dots = document.getElementsByClassName("button-holder");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-  dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+function getStarted() {
+  window.location.replace("signup.html");
 }
+
+function learnMore() {
+  window.location.replace("learnMore.html");
+}
+
+function login() {
+  window.location.replace("login.html");
+}
+
+function continuousShift1() {
+  window.location.replace("frontPage.html#slider-image-1");
+  setTimeout(function() { continuousShift2() }, 7000);
+}
+function continuousShift2() {
+  window.location.replace("frontPage.html#slider-image-2");
+  setTimeout(function() { continuousShift3() }, 7000);
+}
+function continuousShift3() {
+  window.location.replace("frontPage.html#slider-image-3");
+  setTimeout(function() { continuousShift1() }, 7000);
+}
+
+window.onload = continuousShift1;
