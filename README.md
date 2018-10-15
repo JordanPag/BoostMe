@@ -2,4 +2,4 @@
 Get your music heard
 
 ## Check out our website
-Boost Me
+[Boost me](https://jordanpag.github.io/BoostMe/BoostMe-master/frontPage.html#slider-image-1)
