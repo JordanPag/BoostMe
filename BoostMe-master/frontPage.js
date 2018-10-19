@@ -1,15 +1,3 @@
-function getStarted() {
-  window.location.replace("signup.html");
-}
-
-function learnMore() {
-  window.location.replace("learnMore.html");
-}
-
-function login() {
-  window.location.replace("login.html");
-}
-
 function continuousShiftBeginning() {
   window.location.replace("frontPage.html#slider-image-1");
   setTimeout(function() { continuousShift() }, 7000);
