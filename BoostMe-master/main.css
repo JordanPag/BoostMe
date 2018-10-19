@@ -43,11 +43,13 @@ button{
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
+  font-size: 12px;
 }
 
 .lessImportantButton {
   height: 30px;
-  padding: 0 2em
+  padding: 0 2em;
+  font-size: 10px;
 }
 
 button:hover{
