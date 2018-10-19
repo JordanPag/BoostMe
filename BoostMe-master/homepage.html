@@ -7,94 +7,71 @@
   <link href="main.css" rel="stylesheet">
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <meta charset="utf-8">
-  <script src="frontPage.js"></script>
   <link href="logo.png" rel="icon" type="image/icon">
   <style>
-    .box {
-      display: flex;
-    }
-
-    link {
-      color: blue;
-    }
-
     .profilephoto {
       max-width: 50px;
       max-height: 50px;
       padding-left: 15px;
     }
-
-    body {
-      background-color:white;
-      margin:0px;
-      color: grey;
-    }
-
-    #mainpage {
-      padding: 30px;
-    }
-
-    #redline {
-      background-color:#E43544;
-      height:5px;
-      width:100%;
-      position: relative;
-    }
-
-    #logoname {
-      position:absolute;
-      top:40px;
-      margin-left: -58px;
-      font-family:"Kodchasan";
-      color:#E43544;
-      font-size: 20px;
-    }
-
-    .fill:hover, .fill:focus {
-      box-shadow: inset 0 0 0 2em var(--hover);
-    }
   </style>
   </head>
   <body>
-    <div id="redline">
-    </div>
-    <div id="mainpage">
-      <h1>Welcome, MusicMan42!</h1>
-      <h2>Your Group</h2>
-      <div class="row col-sm-12">
-        <div class="col-sm-3 col-xs-6">
-          <img src="profilepic.png" class="profilephoto"/>
-          <p>groupuser1</p>
-          <link href="#">Listen Now</link>
+    <div class="row">
+      <div class="col-sm-2">
+      </div>
+      <div class="col-sm-8 col-xs-12">
+        <div class="row">
+          <div id="redline">
+          </div>
         </div>
-        <div class="col-sm-3 col-xs-6">
-          <img src="profilepic.png" class="profilephoto"/>
-          <p>groupuser2</p>
-          <link href="#">Listen Now</link>
-        </div>
-        <div class="col-sm-3 col-xs-6">
-          <img src="profilepic.png" class="profilephoto"/>
-          <p>groupuser3</p>
-          <link href="#">Listen Now</link>
-        </div>
-        <div class="col-sm-3 col-xs-6">
-          <img src="profilepic.png" class="profilephoto"/>
-          <p>groupuser4</p>
-          <link href="#">Listen Now</link>
+        <div class="row gray-background">
+          <div class="col-xs-12">
+            <h1>Welcome, MusicMan42!</h1>
+          </div>
+          <div class="col-xs-12">
+            <h2>Your Group</h2>
+          </div>
+          <div class="col-xs-12">
+            <div class="row">
+              <div class="col-sm-3 col-xs-6">
+                <img src="profilepic.png" class="profilephoto"/>
+                <p>groupuser1</p>
+                <link href="#">Listen Now</link>
+              </div>
+              <div class="col-sm-3 col-xs-6">
+                <img src="profilepic.png" class="profilephoto"/>
+                <p>groupuser2</p>
+                <link href="#">Listen Now</link>
+              </div>
+              <div class="col-sm-3 col-xs-6">
+                <img src="profilepic.png" class="profilephoto"/>
+                <p>groupuser3</p>
+                <link href="#">Listen Now</link>
+              </div>
+              <div class="col-sm-3 col-xs-6">
+                <img src="profilepic.png" class="profilephoto"/>
+                <p>groupuser4</p>
+                <link href="#">Listen Now</link>
+              </div>
+            </div>
+            <h2>Popular In Your Genre</h2>
+            <ol>
+              <li>trending music</li>
+              <li>trending music</li>
+              <li>trending music</li>
+              <li>trending music</li>
+              <li>trending music</li>
+            </ol>
+            <h2>Try Something New</h2>
+            <h6>Recommended Rock Music</h6>
+              <p> rocksong1 by rockuser1<p>
+              <p> rocksong2 by rockuser1<p>
+          </div>
         </div>
       </div>
-      <h2>Trending</h2>
-      <ol>
-        <li>trending music</li>
-        <li>trending music</li>
-        <li>trending music</li>
-        <li>trending music</li>
-        <li>trending music</li>
-      </ol>
-      <h2>Try Something New</h2>
-      <h4>Recommended Rock Music</h4>
-        <p> rocksong1 by rockuser1<p>
-        <p> rocksong2 by rockuser1<p>
+      <div class="col-sm-2">
+      </div>
     </div>
   </body>
 </html>
