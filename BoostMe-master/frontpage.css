@@ -93,6 +93,57 @@
   color:#E43544;
   font-size: 20px;
 }
+#learn{
+  font-family: 'Rubik', sans-serif;
+  border-radius: 10px;
+  width: 180px;
+  background: #E43544;
+  color: white;
+  border: none;
+  position: relative;
+  height: 35px;
+  padding: 0 3em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#started{
+
+  font-family: 'Rubik', sans-serif;
+  border-radius: 10px;
+  width: 180px;
+  background: white;
+  color:#E43544;
+  border: none;
+  position: relative;
+  height: 35px;
+  padding: 0 3em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+}
+#login{
+
+  font-family: 'Rubik', sans-serif;
+  border-radius: 10px;
+  width: 180px;
+  background: #E43544;
+  color: white;
+  border: none;
+  position: relative;
+  height: 35px;
+  padding: 0 3em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
 .slider-change {
   display: inline-block;
