@@ -3,11 +3,7 @@ function getStarted() {
 }
 
 function learnMore() {
-<<<<<<< Updated upstream
   window.location.replace("frontPage.html#learnMore");
-=======
-  
->>>>>>> Stashed changes
 }
 
 function login() {
