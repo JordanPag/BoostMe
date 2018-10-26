@@ -9,6 +9,8 @@
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
 		<meta charset="utf-8">
 		<link href="logo.png" rel="icon" type="image/icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cloudboost.io/js-sdk/cloudboost.js"></script>
     <script src="login.js"></script>
     <title>Login</title>
   </head>
@@ -32,26 +34,27 @@
         <div class="row gray-background">
           <div class="col-xs-12">
             <div class="row" style="text-align: center;">
-              <form>
-                <div class="col-xs-12">
-                  <h1>Login</h1>
-                </div>
-                <div class="col-xs-12">
-                  <input type="text" placeholder="Username" name="username">
-                </div>
-                <div class="col-xs-12">
-                  <input type="password" placeholder="Password" name="password">
-                </div>
-                <div class="col-xs-12">
-                  <p></p> <!-- For blank space -->
-                </div>
-                <div class="col-xs-12">
-                  <button type="submit">Login</button>
-                </div>
-                <div class="col-xs-12">
-                  <p></p> <!-- For blank space -->
-                </div>
-              </form>
+              <div class="col-xs-12">
+                <h1>Login</h1>
+              </div>
+              <div class="col-xs-12">
+                <p class="errorMessage"></p>
+              </div>
+              <div class="col-xs-12">
+                <input type="text" placeholder="Username" id="username">
+              </div>
+              <div class="col-xs-12">
+                <input type="password" placeholder="Password" id="password">
+              </div>
+              <div class="col-xs-12">
+                <p></p> <!-- For blank space -->
+              </div>
+              <div class="col-xs-12">
+                <button onclick="checkValidity()">Login</button>
+              </div>
+              <div class="col-xs-12">
+                <p></p> <!-- For blank space -->
+              </div>
             </div>
           </div>
         </div>
