@@ -128,10 +128,10 @@ input:focus {
   border: 2px solid #E43544;
   border-radius: 25px;
 }
+
 #logo {
   width: 50px;
   height: 50px;
-  top: 0;
 }
 
 #logoname {
@@ -139,7 +139,6 @@ input:focus {
   font-family: "Kodchasan";
   color: #E43544;
   font-size: 20px;
-  left: 60px;
   top: 14px;
 }
 
@@ -148,9 +147,9 @@ nav a {
 }
 
 nav {
-  margin-bottom: 10px;
+  position: fixed;
   height: 50px;
-  width: 180px;
+  width: 100%;
   background-color: #D2D2D2;
   top: 0;
 }
