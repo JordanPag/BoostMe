@@ -149,9 +149,10 @@ nav a {
 }
 
 nav {
-  position: fixed;
-  height: 50px;
-  width: 100%;
+  margin-bottom: 10px: 
+  height: 30px;
+  width: 180px;
+  border-radius: 40px;
   background-color: #D2D2D2;
   top: 0;
 }
