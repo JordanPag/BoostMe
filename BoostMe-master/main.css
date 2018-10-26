@@ -130,3 +130,15 @@ input:focus {
   border: 2px solid #E43544;
   border-radius: 25px;
 }
+
+nav a {
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background-color: #D2D2D2;
+  top: 0;
+}
