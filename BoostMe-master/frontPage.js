@@ -3,7 +3,7 @@ function getStarted() {
 }
 
 function learnMore() {
-  window.location.replace("learnMore.html");
+  window.location.replace("frontPage.html#learnMore");
 }
 
 function login() {
