@@ -79,24 +79,6 @@
   top: -20px;
 }
 
-#logo {
-  position: absolute;
-  top: 0;
-  left: 25px;
-  width: 50px;
-  height: 50px;
-}
-
-#logoname {
-  position: absolute;
-  top: 12.5px;
-  left: 50px;
-  font-family:"Kodchasan";
-  color:#E43544;
-  font-size: 20px;
-}
-
-
 .slider-change {
   display: inline-block;
   height: 10px;
@@ -148,4 +130,3 @@
   width: 100%;
   top: 60%;
 }
-
