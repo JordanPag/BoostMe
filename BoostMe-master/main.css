@@ -46,14 +46,19 @@ button{
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
+<<<<<<< HEAD
   text-transform: uppercase;
   letter-spacing: 2px;
+=======
+  font-size: 12px;
+>>>>>>> origin/master
 }
 
 .signup {
   border: none;
   height: 30px;
-  padding: 0 2em
+  padding: 0 2em;
+  font-size: 10px;
 }
 .signup:hover{
   background: white;
