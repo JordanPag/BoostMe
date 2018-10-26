@@ -131,6 +131,18 @@ input:focus {
   border: 2px solid #E43544;
   border-radius: 25px;
 }
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+#logoname {
+  position: absolute;
+  font-family: "Kodchasan";
+  color: #E43544;
+  font-size: 20px;
+  top: 1px;
+}
 
 nav a {
   text-decoration: none;
