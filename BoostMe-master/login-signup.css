@@ -1,7 +1,7 @@
-input {
+input, select {
   width: 80%;
 }
 
 .errorMessage {
-  color: red;
+  color: #E43544;
 }

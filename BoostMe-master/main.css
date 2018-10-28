@@ -92,7 +92,7 @@ button{
   color: #E43544;
 }
 
-input {
+input, select {
   border: 2px solid black;
   border-radius: 2px;
   transition: 1s;
@@ -100,7 +100,7 @@ input {
   font-size: 15px;
 }
 
-input:focus {
+input:focus, select:focus {
   outline: none;
   border: 2px solid #E43544;
   border-radius: 25px;

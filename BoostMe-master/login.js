@@ -1,9 +1,7 @@
 CB.CloudApp.init('ayyuhziequij', 'e592ce9a-b29b-444c-b5b2-138f4572644f');
 
 function validate() {
-  console.log("logging in");
   var username = $("#username").val();
-  console.log(username);
   var password = $("#password").val();
   var user = new CB.CloudUser();
   user.set('username', username);
@@ -13,8 +11,7 @@ function validate() {
       window.location.replace("homepage.html");
     },
     error: function(error) {
-      console.log("incorrect login");
-      $(".errorMessage").html("Username or password was incorrect");
+      $(".errorMessage").html("Incorrect username or password");
     }
   });
 }
