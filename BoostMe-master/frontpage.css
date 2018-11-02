@@ -2,6 +2,19 @@ body {
   padding-top: 0;
 }
 
+.in {
+  margin-top: 20px;
+}
+
+.ic {
+  margin-top: 20px;
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+  -webxit-box-shadow: 1px 6px 52px 6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 6px 52px 6px rgba(0,0,0,0.75);
+  box-shadow: 1px 6px 52px 6px rgba(0,0,0,0.75);
+}
 #nameholder {
   background-color: black;
   border-style: solid;

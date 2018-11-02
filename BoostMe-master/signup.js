@@ -13,12 +13,12 @@ function signUp() {
   user.set('password', password);
   user.set('musicGenre', genre);
   user.set('musicLink', musiclink);
-  //user.signUp({
-    //success: function(user) {
+  user.signUp({
+    success: function(user) {
       //Registration successfull
-    //},
-    //error: function(error) {
+    },
+    error: function(error) {
       //Error in user registration.
-    //}
-  //});
+    }
+  });
 }
