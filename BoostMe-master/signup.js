@@ -16,15 +16,16 @@ function signUp() {
   user.signUp({
     success: function(user) {
       //Registration successfull
-      user.logIn({
-        success: function(user) {
+      //user.logIn({
+        //success: function(user) {
           //Login successfull
-          window.location.replace("homepage.html");
-        },
-        error: function(error) {
-          console.log(error);
-        }
-      });
+          //window.location.replace("homepage.html");
+        //},
+        //error: function(error) {
+          //console.log(error);
+        //}
+      //});
+      window.location.replace("login.html");
     },
     error: function(error) {
       //Error in user registration.
