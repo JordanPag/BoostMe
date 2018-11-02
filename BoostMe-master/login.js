@@ -8,6 +8,7 @@ function validate() {
   user.set('password', password);
   user.logIn({
     success: function(user) {
+      //Login successfull
       window.location.replace("homepage.html");
     },
     error: function(error) {
